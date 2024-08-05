@@ -1,0 +1,43 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.test
+
+# Build output
+dist/
+build/
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Frontend specific
+/frontend/node_modules/
+/frontend/.env
+/frontend/build/
+/frontend/.next/
+
+# Backend specific
+/backend/node_modules/
+/backend/.env
+/backend/dist/
